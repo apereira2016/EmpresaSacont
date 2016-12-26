@@ -1,0 +1,497 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SACONT CA</title>
+		<meta charset="utf-8" />
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery.corner.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+		<div class="container">
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="logo">
+							<a href="#">SACONT CA</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+				<li><a href="#saint" class="scroll">Saint</a></li>
+								<li><a href="#nextsoft" class="scroll">NextSoft</a></li>
+								<li><a href="#process" class="scroll">Servicios</a></li>
+								<li><a href="#port" class="scroll">Impresoras Fiscales</a></li>
+								<li class="page-scroll"><a href="#contact" class="scroll">Contacto</a></li>
+								<li class="active-join" class="page-scroll"><a href="#team" class="scroll">Organización</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner-info ---->
+			<div class="banner-info">
+				<div class="container">
+					<h1 class="wow fadeIn" data-wow-delay="0.5s"><span>Donde Estamos</span><br /><label>Comprometidos con su Empresa</label></h1>
+				<div class="top-banner-grids wow bounceInUp" data-wow-delay="0.4s">
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+			<!---- banner-info ---->
+			<!---- top-grids ---->
+			<div id="process" class="process">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Nuestros</span><label>Servicios</label></h3>
+					</div>
+				</div>
+				<div class="container">
+					<div class="process-grids text-center wow bounce" data-wow-delay="0.4s">
+						<div class="col-md-3 process-grid process-grid1 wow bounceInUp" data-wow-delay="0.4s">
+							<span class="p-icon1"> </span>
+							<h4><a href="#saint">SAINT</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid2 wow bounceInDown" data-wow-delay="0.4s">
+							<span class="p-icon2"> </span>
+							<h4><a href="#nextsoft">NEXTSOFT</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid3 wow bounceInUp" data-wow-delay="0.4s">
+							<span class="p-icon3"> </span>
+							<h4><a href="#port">IMPRESORAS</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid4 wow bounceInDown" data-wow-delay="0.4s">
+							<span class="p-icon4"> </span>
+							<h4><a href="#promo">PROMOCIÓN</a></h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+
+			<!---- top-grids ---->
+			<!---- about ---->
+			<div id="saint" class="about">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Sistema</span><label>Saint</label></h3>
+					</div>
+				</div>
+					<!--- about-grids ---->
+					<div class="about-grids">
+						<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Administrativo</a></h4>
+								<p>ANNUAL enterprise administrativo es la herramienta idónea para manejar el flujo de información que permite la correcta operación de su empresa. Nuestro software analiza su estado actual y genera resultados que aumentan la productividad de su personal y por ende, el crecimiento de su organización. </p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic1.jpg" title="name" />
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+							<div class="about-grid-pic">
+							<img src="images/about-pic2.jpg" title="name" />
+							</div>
+							<div class="about-grid-info">
+								<h4><a href="#">Contable</a></h4>
+								<p>ANNUAL enterprise contabilidad controla las operaciones contables de una o varias de sus empresas con reportes adecuados para cumplir con las normativas legales y fiscales, bajo los estándares mínimos de cualquier institución financiera. Nuestra herramienta asegura un registro detallado de movimientos contables, generando un aumento en el rendimiento de los procesos de su empresa. </p>
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid1 wow fadeInRight" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Nomina</a></h4>
+								<p>Annual enterprise gestión de pago, debido a su alto grado de configuración, facilita efectivamente los procesos de cálculos y pagos al personal de su empresa. Nuestro sistema es la herramienta perfecta para manejar distintos tipos de nómina gracias a su flexibilidad, capacidad de adaptación a las necesidades de su empresa y la sencillez de su interfaz de usuario. </p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic3.jpg" title="name" />
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- /about-grids ---->
+				</div>
+			</div>
+
+
+			<div id="nextsoft" class="about">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Sistema</span><label>NextSoft</label></h3>
+					</div>
+				</div>
+					<!--- about-grids ---->
+					<div class="about-grids">
+						<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Administrativo</a></h4>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed </p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic1.jpg" title="name" />
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+							<div class="about-grid-pic">
+							<img src="images/about-pic2.jpg" title="name" />
+							</div>
+							<div class="about-grid-info">
+								<h4><a href="#">Contable</a></h4>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed </p>
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid1 wow fadeInRight" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">SMS</a></h4>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed </p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic3.jpg" title="name" />
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- /about-grids ---->
+				</div>
+			</div>
+			<!---- about ---->
+			<!--- process --->
+			<!--- blog ---->
+			</div>
+			<!--- blog ---->
+			<!--- portfolio ---->
+			<div id="port" class="portfolio">
+				<div class="head-section">
+					<div class="container">
+						<h3>IMPRESORAS</h3>
+					</div>
+				</div>
+				<!--- Portfolio --->
+			<div id="port" class="portfolio-box">
+
+					<!---- start-portfolio-script----->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});
+
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+										}
+									);
+
+								}
+
+							};
+							// Run the show!
+							filterList.init();
+						});
+					</script>
+					<div class="container">
+						<!----//End-portfolio-script----->
+						<ul id="filters" class="clearfix">
+							<li class="filtter-color1"><span class="filter active" data-filter="app card icon logo web">Todos</span></li>
+							<li class="filtter-color2"><span class="filter" data-filter="app">Bixolon</span></li>
+							<li class="filtter-color3"><span class="filter" data-filter="card">Tally</span></li>
+							<li class="filtter-color4"><span class="filter" data-filter="icon">Aclas</span></li>
+						</ul>
+					</div>
+					<div id="portfoliolist">
+					<div class="portfolio logo1 mix_all port-big-grid wow bounceIn" data-wow-delay="0.5s" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/srp270mediana2.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>SRP-270</h4>
+						     			<p>Capacidad para imprimir los datos fiscales del cliente(suministra crédito fiscal).</p>
+    									<p>Distribuidores y Centros de servicio técnico a nivel nacional.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio logo1 mix_all port-big-grid wow bounceIn" data-wow-delay="0.5s" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/hka1122.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>HKA-112</h4>
+						     			<p>Capacidad para imprimir los datos fiscales del cliente(suministra crédito fiscal).</p>
+    									<p>Conexión con los mejores del software país.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/dt11252.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>Dascom 1125</h4>
+						     			<p>La DASCOM Tally 1125, es una Impresora Fiscal fabricada bajo estrictos estándares de calidad, que dan a su moderno diseño, la seguridad y la robustez necesaria para cumplir con las normativas fiscales vigentes en el país.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/aclaspp1f32.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>Aclas PP1F3</h4>
+						     			<p>Capacidad para imprimir los datos fiscales del cliente(suministra crédito fiscal).</p>
+    									<p>Única impresora fiscal que trabaja hasta 72 horas sin suministro de corriente eléctrica.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/srp280mediana2.jpg" />
+						     <div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>SRP-280 Mediana</h4>
+						     			<p>La impresora fiscal SRP-280 de matriz de puntos cuenta con alto desempeño, de compacto y elegante diseño comparte la robustez y fiabilidad característica de los equipos Bixolon.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/dt2302.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>Dascom 230</h4>
+						     			<p>La Impresora fiscal DT-230 reúne la robustez y fiabilidad de sus predecesoras, presenta nuevas funcionalidades como la emisión de notas de débitos, la impresión de códigos QR y cuenta con puerto USB Tipo B lo que permite mayor velocidad de desempeño.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/aclas-pp92.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>Aclas PP9</h4>
+						     			<p>La impresora ACLAS PP9 es una impresora fiscal térmica que cuenta con un diseño compacto y moderno. Posee una batería interna, lo que permite continuar trabajando, aún desconectado de la toma eléctrica.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/srp350mediana2.jpg" />
+						     <div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>SRP-350 Mediana</h4>
+						     			<p>La BIXOLON SRP-350 es una impresora fiscal que brinda la mayor rapidez de impresión en el mercado, cuenta con un diseño robusto y seguro cumpliendo así las normativas fiscales del país.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/srp812mediana2.jpg" />
+						     <div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>SRP-812 Mediana</h4>
+						     			<p>La Impresora Fiscal BIXOLON SRP-812 es una impresora fiscal que brinda una alta velocidad de impresión y un diseño compacto y seguro, combinado con la robustez y elegancia características de los equipos BIXOLON.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+				</div>
+			</div>
+			<!---- work-with-us---->
+			<div class="work-with-us text-center">
+				<div class="container" id="promo">
+					<h4>¿Conoces Nuestra Promoción?</h4>
+					<p>Te invitamos a que te comuniques con nosotros para conocer lo que SACONT trae para tu Empresa.</p>
+					<a class="catch-me wow shake" data-wow-delay="0.3s" href="#contact">Contáctenos</a>
+				</div>
+			</div>
+			<!---- work-with-us---->
+			<!--- portfolio ---->
+			<!---- Team ----->
+			<div id="team" class="team">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Nuestra</span><label>Organización</label></h3>
+					</div>
+				</div>
+				<!----sreen-gallery-cursual---->
+					<div class="about-grids">
+						<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Nosotros</a></h4>
+								<p>ANNUAL enterprise administrativo es la herramienta idónea para manejar el flujo de información que permite la correcta operación de su empresa. Nuestro software analiza su estado actual y genera resultados que aumentan la productividad de su personal y por ende, el crecimiento de su organización.</p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic1.jpg" title="name" />
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+							<div class="about-grid-pic">
+							<img src="images/about-pic2.jpg" title="name" />
+							</div>
+							<div class="about-grid-info">
+								<h4><a href="#">Misión</a></h4>
+								<p>ANNUAL enterprise contabilidad controla las operaciones contables de una o varias de sus empresas con reportes adecuados para cumplir con las normativas legales y fiscales, bajo los estándares mínimos de cualquier institución financiera. Nuestra herramienta asegura un registro detallado de movimientos contables, generando un aumento en el rendimiento de los procesos de su empresa.</p>
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid1 wow fadeInRight" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Visión</a></h4>
+								<p>Annual enterprise gestión de pago, debido a su alto grado de configuración, facilita efectivamente los procesos de cálculos y pagos al personal de su empresa. Nuestro sistema es la herramienta perfecta para manejar distintos tipos de nómina gracias a su flexibilidad, capacidad de adaptación a las necesidades de su empresa y la sencillez de su interfaz de usuario. </p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic3.jpg" title="name" />
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+			</div>
+			<!---- Team ----->
+			<!---- map ---->
+			<div id="contact" class="map">
+				<div class="map-location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667809.5405374563!2d-98.19684021195167!3d35.27017247326614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ac3911b1ac4f9d%3A0x5d1ccf33400aea48!2sOklahoma%2C+USA!5e0!3m2!1sen!2sin!4v1405178655430"> </iframe>
+				</div>
+				<div class="contact-info text-center wow fadeInLeft" data-wow-delay="0.3s">
+					<h4><span>SACONT CA</span>Comprometidos con tu Empresa</h4>
+					<p><span class="map-icon1"> </span>URB. VILLA ADONAY MZNA 16 OFIC 14</p>
+					<p><span class="map-icon2"> </span>sistemas.sacont@gmail.com</p>
+					<p><span class="map-icon3"> </span>582864186021 - 584147602349 - 584148773055</p>
+				</div>
+			</div>
+			<!---- map ---->
+			<div class="clearfix"> </div>
+			<!---- footer --->
+			<div class="footer text-center">
+				<div class="container">
+					<div class="footer-inner wow zoomIn" data-wow-delay="0.3s">
+						<ul>
+							<li><a href="#"><img src="images/footer-sacont.png" title="sacont" /></a></li>
+							<li><a class="contact-me" href="#contact">Contáctenos</a></li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---- footer --->
+		</div>
+	</body>
+</html>
